@@ -33,6 +33,7 @@ namespace WindowsFormsApp1
 
             //AMR2223 Obtengo el número de palabras que forma el telegrama
             //AMR222 3numPalabras = textoTelegrama.Length; es INCORRECTO
+            //11/2 añadido
 
             numPalabras = textoTelegrama.Split(' ', '.', ',').Length;
 
